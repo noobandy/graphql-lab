@@ -1,0 +1,30 @@
+type Query {
+  bookById(id: ID): Book
+}
+
+type Book {
+  id: ID
+  title: String
+  desc: String
+  authors: [Author]
+  categories: [Category]
+  metadata: [BookMetadata]
+}
+
+type Author {
+  id: ID
+  name: String
+  about: String
+}
+
+type Category {
+  id: ID
+  name: String
+  desc: String
+}
+
+type BookMetadata {
+  id: ID
+  attributeName: String
+  attributeValue: String
+}
