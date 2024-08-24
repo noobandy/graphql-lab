@@ -1,2 +1,2 @@
 # graphql-lab
-A sample book service which expose both a REST and Graphql endpoint.
+A sample book service which exposes both a REST and a Graphql API.
